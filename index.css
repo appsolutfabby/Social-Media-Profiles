@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Noto Sans Mono", monospace;
+  font-style: normal;
+  font-size: 14px;
+  background-color: #0b0b0b;
+  place-content: center;
+  display: flex;
+}
+
+.container {
+  background-color: hsl(0, 1%, 17%);
+  max-width: 400px;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+.container .pics img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.container .profiledetails h1 {
+  color: white;
+}
+
+.container .profiledetails h2 {
+  color: green;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+
+.container ul li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.container ul li a {
+  background-color: hsl(0, 1%, 15%);
+  border-radius: 1rem;
+  padding: 0.7rem;
+  display: block;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+.container ul li a:hover {
+  background: green;
+  color: #0b0b0b;
+}
